@@ -3,6 +3,8 @@ import 'package:bluefeed/main.dart';
 import 'package:bluefeed/screens/login.dart';
 import 'package:bluefeed/screens/profile.dart';
 import 'package:bluefeed/screens/signup.dart';
+import 'package:bluefeed/screens/explore.dart';
+import 'package:bluefeed/screens/messages.dart';
 import 'package:go_router/go_router.dart';
 
 final GoRouter router = GoRouter(
@@ -27,6 +29,14 @@ final GoRouter router = GoRouter(
     GoRoute(
       path: '/profile',
       builder: (context, state) => const Profile(),
-    )
+    ),
+    GoRoute(
+      path: '/explore',
+      builder: (context, state) => const Explore(),
+    ),
+    GoRoute(
+      path: '/messages',
+      builder: (context, state) => const Messages(),
+    ),
   ],
 );

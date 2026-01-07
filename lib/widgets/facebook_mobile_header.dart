@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 class FacebookMobileHeader extends StatelessWidget
     implements PreferredSizeWidget {
@@ -32,10 +33,13 @@ class FacebookMobileHeader extends StatelessWidget
             // Right: profile & messages/notifications
             Row(
               children: [
-                SizedBox(width: 8),   
+                SizedBox(width: 8),
                 _CircleButton(Icons.add),
                 _CircleButton(Icons.search),
-                _CircleButton(Icons.message),
+                _CircleButton(Icons.travel_explore,
+                    onTap: () => context.go('/explore')),
+                _CircleButton(Icons.message,
+                    onTap: () => context.go('/messages')),
 
                 SizedBox(width: 8),
                 // CircleAvatar(
@@ -44,7 +48,7 @@ class FacebookMobileHeader extends StatelessWidget
                 //     child: Image.network(
                 //       'https://i.pravatar.cc/40?u=myprofile',
                 //       width: 36,
-                //       height: 36,     
+                //       height: 36,
                 //       fit: BoxFit.cover,
                 //       errorBuilder: (_, __, ___) => const Icon(Icons.person),
                 //     ),
@@ -61,14 +65,19 @@ class FacebookMobileHeader extends StatelessWidget
 
 class _CircleButton extends StatelessWidget {
   final IconData icon;
-  const _CircleButton(this.icon);
+  final VoidCallback? onTap;
+  const _CircleButton(this.icon, {this.onTap});
 
   @override
   Widget build(BuildContext context) {
-    return CircleAvatar(
-      radius: 20,
-      backgroundColor: const Color(0xffe4e6eb),
-      child: Icon(icon, color: Colors.black),
+    return InkWell(
+      onTap: onTap,
+      borderRadius: BorderRadius.circular(100),
+      child: CircleAvatar(
+        radius: 20,
+        backgroundColor: const Color(0xffe4e6eb),
+        child: Icon(icon, color: Colors.black),
+      ),
     );
   }
 }
