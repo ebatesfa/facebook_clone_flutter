@@ -3,7 +3,6 @@ import 'package:bluefeed/main.dart';
 import 'package:bluefeed/screens/login.dart';
 import 'package:bluefeed/screens/profile.dart';
 import 'package:bluefeed/screens/signup.dart';
-import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
 final GoRouter router = GoRouter(
