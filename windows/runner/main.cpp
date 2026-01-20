@@ -27,7 +27,11 @@ int APIENTRY wWinMain(_In_ HINSTANCE instance, _In_opt_ HINSTANCE prev,
   FlutterWindow window(project);
   Win32Window::Point origin(10, 10);
   Win32Window::Size size(1280, 720);
+<<<<<<< HEAD
   if (!window.Create(L"BlueFeed", origin, size)) {
+=======
+  if (!window.Create(L"facebook_clone", origin, size)) {
+>>>>>>> 2a58217926a06bc02d6f15d631785e43ceff0d8f
     return EXIT_FAILURE;
   }
   window.SetQuitOnClose(true);

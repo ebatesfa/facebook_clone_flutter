@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # BlueFeed
 
 BlueFeed — a Facebook-inspired social feed (rebranded).
+=======
+# facebook_clone
+
+A new Flutter project.
+>>>>>>> 2a58217926a06bc02d6f15d631785e43ceff0d8f
 
 ## Getting Started
 

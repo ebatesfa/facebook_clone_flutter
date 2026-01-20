@@ -1,6 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
+<<<<<<< HEAD
         android:label="BlueFeed"
+=======
+        android:label="facebook_clone"
+>>>>>>> 2a58217926a06bc02d6f15d631785e43ceff0d8f
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

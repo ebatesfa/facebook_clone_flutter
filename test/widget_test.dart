@@ -8,7 +8,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
+<<<<<<< HEAD
 import 'package:bluefeed/main.dart';
+=======
+import 'package:facebook_clone/main.dart';
+>>>>>>> 2a58217926a06bc02d6f15d631785e43ceff0d8f
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {

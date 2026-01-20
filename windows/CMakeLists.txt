@@ -1,10 +1,18 @@
 # Project-level configuration.
 cmake_minimum_required(VERSION 3.14)
+<<<<<<< HEAD
 project(bluefeed LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
 set(BINARY_NAME "bluefeed")
+=======
+project(facebook_clone LANGUAGES CXX)
+
+# The name of the executable created for the application. Change this to change
+# the on-disk name of your application.
+set(BINARY_NAME "facebook_clone")
+>>>>>>> 2a58217926a06bc02d6f15d631785e43ceff0d8f
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.

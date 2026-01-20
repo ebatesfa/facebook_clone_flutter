@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 buildscript {
     repositories {
         google()
@@ -10,6 +11,8 @@ buildscript {
 }
 
 // Keep your existing configuration below
+=======
+>>>>>>> 2a58217926a06bc02d6f15d631785e43ceff0d8f
 allprojects {
     repositories {
         google()
