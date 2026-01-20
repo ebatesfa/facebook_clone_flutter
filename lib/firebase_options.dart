@@ -51,19 +51,19 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyA3QMrqjuEeV__fd7-4NlSCqIYgA9HxRx8',
-    appId: '1:228301483072:android:75abc5d8c6f0301761c3a5',
-    messagingSenderId: '228301483072',
-    projectId: 'facebook-clone-86509',
-    storageBucket: 'facebook-clone-86509.firebasestorage.app',
+    apiKey: 'AIzaSyBlvmK69jy5p9TKRnnKL3VIYoXGiC5yxDU',
+    appId: '1:813971662065:android:4f658ef0bb61e192dfb550',
+    messagingSenderId: '813971662065',
+    projectId: 'my-new-fb-project-aa9e0',
+    storageBucket: 'my-new-fb-project-aa9e0.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyAycikO9dMLaM3GDv1IQVVXN6d21kWZ7mc',
     appId: '1:228301483072:ios:fc182837a25dc25a61c3a5',
-    messagingSenderId: '228301483072',
-    projectId: 'facebook-clone-86509',
-    storageBucket: 'facebook-clone-86509.firebasestorage.app',
+    messagingSenderId: '813971662065',
+    projectId: 'my-new-fb-project-aa9e0',
+    storageBucket: 'my-new-fb-project-aa9e0.firebasestorage.app',
     iosClientId: '228301483072-4uv0tkqn2qvhsgn8gif5hnok2jnn0h00.apps.googleusercontent.com',
     iosBundleId: 'com.example.facebookClone',
   );
@@ -71,9 +71,9 @@ class DefaultFirebaseOptions {
   static const FirebaseOptions macos = FirebaseOptions(
     apiKey: 'AIzaSyAycikO9dMLaM3GDv1IQVVXN6d21kWZ7mc',
     appId: '1:228301483072:ios:fc182837a25dc25a61c3a5',
-    messagingSenderId: '228301483072',
-    projectId: 'facebook-clone-86509',
-    storageBucket: 'facebook-clone-86509.firebasestorage.app',
+    messagingSenderId: '813971662065',
+    projectId: 'my-new-fb-project-aa9e0',
+    storageBucket: 'my-new-fb-project-aa9e0.firebasestorage.app',
     iosClientId: '228301483072-4uv0tkqn2qvhsgn8gif5hnok2jnn0h00.apps.googleusercontent.com',
     iosBundleId: 'com.example.facebookClone',
   );
@@ -81,10 +81,10 @@ class DefaultFirebaseOptions {
   static const FirebaseOptions windows = FirebaseOptions(
     apiKey: 'AIzaSyAAvRl_hkVldLr5iu7nr_ZfKlxlvlZzivU',
     appId: '1:228301483072:web:0c8f26cf2f5e3a0561c3a5',
-    messagingSenderId: '228301483072',
-    projectId: 'facebook-clone-86509',
-    authDomain: 'facebook-clone-86509.firebaseapp.com',
-    storageBucket: 'facebook-clone-86509.firebasestorage.app',
+    messagingSenderId: '813971662065',
+    projectId: 'my-new-fb-project-aa9e0',
+    authDomain: 'my-new-fb-project-aa9e0.firebaseapp.com',
+    storageBucket: 'my-new-fb-project-aa9e0.firebasestorage.app',
     measurementId: 'G-QZHC147N5R',
   );
 }
